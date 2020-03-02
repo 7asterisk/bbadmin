@@ -1,0 +1,13 @@
+[24-Feb-2020 11:49:09 UTC] PHP Warning:  include(includes/config.php): failed to open stream: No such file or directory in /home/nqx65xdn3zi7/public_html/public/fcm.php on line 3
+[24-Feb-2020 11:49:09 UTC] PHP Warning:  include(): Failed opening 'includes/config.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/nqx65xdn3zi7/public_html/public/fcm.php on line 3
+[24-Feb-2020 11:49:09 UTC] PHP Notice:  Undefined variable: connect in /home/nqx65xdn3zi7/public_html/public/fcm.php on line 5
+[24-Feb-2020 11:49:09 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/nqx65xdn3zi7/public_html/public/fcm.php on line 5
+[24-Feb-2020 11:49:09 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/nqx65xdn3zi7/public_html/public/fcm.php on line 6
+[24-Feb-2020 11:49:09 UTC] PHP Notice:  Undefined variable: connect in /home/nqx65xdn3zi7/public_html/public/table-news.php on line 9
+[24-Feb-2020 11:49:09 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/nqx65xdn3zi7/public_html/public/table-news.php on line 9
+[24-Feb-2020 11:49:09 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/nqx65xdn3zi7/public_html/public/table-news.php on line 10
+[24-Feb-2020 11:49:09 UTC] PHP Notice:  Undefined variable: connect in /home/nqx65xdn3zi7/public_html/public/table-news.php on line 81
+[24-Feb-2020 11:49:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function stmt_init() on null in /home/nqx65xdn3zi7/public_html/public/table-news.php:81
+Stack trace:
+#0 {main}
+  thrown in /home/nqx65xdn3zi7/public_html/public/table-news.php on line 81
